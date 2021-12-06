@@ -1,0 +1,34 @@
+.box{
+    background:linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    padding: 10px;
+    border:2px solid green;
+    width: 50%;
+}
+#Menu{
+    background-color:magenta;
+    width: fit-content;
+}
+.delete-icon{
+    background-color:red;
+    width:30px;
+    height: fit-content;
+
+}
+.food_item_cover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+.food_item_info{
+    text-align: justify;
+    text-justify: inter-word;
+    font-style: italic;
+}
+.id{
+    font-weight: bold;
+}
+.name{
+    font-weight: bold;
+}
