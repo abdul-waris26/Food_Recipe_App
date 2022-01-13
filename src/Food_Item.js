@@ -11,11 +11,11 @@ const Food_Item = (props) =>{
            <img className="food_item_cover" src={props.food_Item.imageSource}/>
            <div className="icons">
                 <RiCloseCircleLine
-                onClick={()=>{props.onRemove(props.food_Item)} }
+                onClick={()=>{props.onRemove(props.food_Item.id)} }
                 className='delete-icon'
                 />
             </div>
-         </center>
+         </center> 
          </div>
         </center>
 
